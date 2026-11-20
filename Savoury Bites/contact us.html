@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="specials.html">
+    <link rel="stylesheet" href="manu.html">
+    <title>Savoury Bites</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Savoury Bites</a>
+        <img src="image/Savoury Bites.png" alt="logo-image">
+        <nav>
+            <a href="/home.html">Home</a>
+            <a href="/manu.html">Manu</a>
+            <a href="/specials.html">Specials</a>
+            <a href="/contact us.html">Contact US</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us For Reservation</h1>
+        
+
+        <form class="placeholder">
+            <label for="name">Name and Surname:</label>
+            <input type="name" id="name" name="name" placeholder="Enter your name"required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Example@gmail.com" required><br>
+            <label for="Date & Time for reservation">Date & Time for reservation:</label>
+            <input type="Date & Time for reservation" id="Date & Time for reservation" name="Date & Time for reservation" placeholder="Date & Time for reservation"required><br>
+            <label for="Number of guests">Number of guests:</label>
+            <input type="Number of guests" id="Number of guests" name="Number of guests" placeholder="Number of guests"required><br>
+            <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+            <div class="popup" id="popup">
+                <img src="check.png">
+                <h2 class="thank-you">Thank you for your reservation</h2>
+                <p class="thank-you-u">Your booking has been confirmed. 
+                    A confirmation email has been sent with all the details. 
+                    We look forward to serving you."
+                </p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </form>
+        <h1>contact details</h1>
+        <h3>Address: </h3>
+        <h3>Phone number:  0861 100 395</h3>
+        <h3>Email: Eat@SavouryBites.co.za</h3>
+    </main>
+
+    <!--footer section-->
+    <footer>
+        <section >
+            <p class="us">Follow Us</p>
+            <div class="social-icon">
+                <a href="https://facebook.com/Savoury Bites" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://Instagram.com/Savoury Bites" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://twitter.com/Savoury Bites" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://tiktok.com/Savoury Bites" target="_blank"><ion-icon name="logo-tiktok"></ion-icon></a>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            </div>
+            
+        </section>
+    </footer>
+</body>
+</html>

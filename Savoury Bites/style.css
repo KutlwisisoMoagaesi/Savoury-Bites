@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #ffdec2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer{
+    background-color: #ffdec2;
+}
+
+footer .social-icon{
+    align-items: center;
+}
+
+/*logo-image*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background: transparent;
+    z-index: 100;
+}
+
+.logo-imge{
+    height: 50px;
+    width: auto;
+}
+
+.logo{
+    font-size: 2rem;
+    color: black;
+}
+
+nav a{
+    margin-left: 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+    transition: color .5s ease;
+    cursor: pointer;
+    
+}
+
+nav a:hover, 
+nav a.active{
+    color: #ffad48;
+}
+
+/*hero*/
+.hero{
+    background-image: url(image/a\ modern\ restaurant\ .png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+footer{
+    margin-top: 2.6rem;
+    margin: 10px;
+    align-items: flex-end;
+}
+
+.us{
+    color: black;
+}
+
+footer .social-icon{
+    color: black;
+    margin-right: 10px;
+}
+
+/*manu styling*/
+main {
+    padding: 40px;
+    background-color: #fdfdfd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Mains {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Dish containers */
+.first-dish,
+.second-dish,
+.third-dish {
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.first-dish:hover,
+.second-dish:hover,
+.third-dish:hover {
+    transform: scale(1.02);
+}
+
+/* Dish titles */
+.first-dish h1,
+.second-dish h1,
+.third-dish h1 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 3rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Price styling */
+h2 {
+    font-size: 1.2rem;
+    color: #e67e22;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*starters*/
+.starters{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/*starters containers*/
+.onion-soup,
+.wrap,
+.crispy-golden-croquettes,
+.puff-pastries{
+    background-color: antiquewhite;
+    border: 1px solid#ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.onion-soup :hover,
+.wrap :hover,
+.crispy-golden-croquettes :hover,
+.puff-pastries :hover{
+    transform: scale(1.02);
+}
+
+/*tittles*/
+.onion-soup h1,
+.wrap h1,
+.crispy-golden-croquettes h1,
+.puff-pastries h1{
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* desserts */
+.Desserts{
+    text-align: center;
+}
+
+.first-dessert,
+.second-dessert,
+.third-dessert,
+.fourth-dessert{
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.first-dessert :hover,
+.second-dessert :hover,
+.third-dessert :hover,
+.fourth-dessert :hover{
+    transform: scale(1.02);
+}
+
+/*drinks*/
+.Drinks{
+    text-align: center;
+}
+
+.first-drink,
+.second-drink,
+.third-drink,
+.fourth-drink{
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.first-drink :hover,
+.second-drink :hover,
+.third-drink :hover,
+.fourth-drink :hover{
+    transform: scale(1.02);
+}
+
+/*specials styling*/
+.specials{
+    text-align: center;
+}
+
+.first-special,
+.second-special,
+.third-special {
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.first-special:hover,
+.second-special:hover,
+.third-special:hover {
+    transform: scale(1.02);
+}
+
+/* special titles */
+.first-special h1,
+.second-special h1,
+.third-special h1 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* contact us styling */
+.placeholder{
+    font-size: 2.5rem;
+}
+
+input, textarea{
+    text-align: left;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2.5px solid black;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 50%;
+    height: 2.5rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 60px;
+    background-color: #7d7d7d;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 100px;
+    border-color: #000000;
+    outline: #000000;
+    box-shadow: #000000;
+}
+
+.btn :hover {
+    transform: scale(1.5);
+    color: #ff8e48;
+}
+
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 90%;
+    transform: translate(-50%, 50%) scale(1);
+}
+
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0;
+    background: rgb(3, 168, 3);
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.thank-you{
+    font-size: 10px;
+}
+
+.thank-you-u{
+    font-size: 20px;
+} 
